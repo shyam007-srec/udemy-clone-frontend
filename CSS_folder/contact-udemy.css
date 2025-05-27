@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    margin: 0px;
+    /* background-color: antiquewhite; */
+   box-shadow:1px 1px 4px gray  ;
+    display: flex;
+    align-items: center;
+}
+
+.head{
+    /* background-color: aqua; */
+   /* background-color: antiquewhite; */
+   padding: 15px ;
+   margin-left: 10px;
+}
+
+
+
+.log{
+    position: absolute;
+    right: 30px;
+    /* background-color: black; */
+    /* padding-top: 30px; */
+    /* align-items: center; */
+}
+
+.log>a>button{
+    padding: 13px 27px;
+    border: 2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.log>a>button:hover{
+    background-color: rgba(70, 8, 128, 0.137);
+    color: blueviolet;
+}
+
+section{
+  position: relative;
+  display: flex;
+  margin-top: 3rem;
+  /* background-color: aqua; */
+  
+}
+label{
+    display: none;
+}
+.text{
+    /* background-color: blanchedalmond; */
+    margin-top: rem;
+    margin-left: 3rem;
+   padding: 20px 50px;
+   position: relative;
+   width: 39%;
+}
+
+.heading{
+    /* border:1px dotted black; */
+    /* background-color: white; */
+    display: inline-block;
+
+}
+
+.heading>h1{
+    font-size: 2.7rem;
+   color: rgb(60, 60, 60);
+
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;
+margin-bottom: 0;
+}
+
+.heading>p{
+    font-size: 1.12rem;
+    margin-top: 10px;
+    color: gray;
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
+
+.details{
+    margin-right: 0px;
+    display: inline-block;
+    /* background-color: white; */
+    /* display: inline-block; */
+margin-top: 2.6rem;
+}
+
+.details>h1{
+    font-size: 1.2rem;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    margin-bottom: 0;
+    font-style: normal;
+    color:  rgb(37, 37, 37);
+}
+
+.details>ul{
+    margin-top: 10px;
+    margin-left: 0;
+    /* background-color: antiquewhite; */
+    padding-left: 10px;
+}
+
+.details>ul>li{
+    /* gap: 10px; */
+    margin: 30px 0px;
+    background-image: url("  ");
+    font-size: medium;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+}
+
+.details>ul>li>span{
+  
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        padding: 1px 3px;
+        color: white;
+        margin-right: 10px;
+    border-radius: 50%;
+    font-size: 10px;
+    
+}
+
+.log-sec{
+    margin-top: 2.3rem;
+    display: inline-block;
+    /* width: 8rem; */
+    width: 97%;
+    position: relative;
+    width: 109%;
+    left: 0px;
+    /* padding-right: 9x; */
+    /* background-color: rgba(0, 187, 255, 0.334); */
+}
+
+.log-sec>h1{
+    font-size: 1.2rem;
+    color: rgb(37, 37, 37);
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+    /* padding-right: rem; */
+}
+
+.log-flex{
+   /* padding-right: ; */
+justify-content: left;
+margin-top: 30px;
+    /* background-color: aliceblue; */
+}
+
+.log-flex>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.3rem;
+    justify-content: left;
+    flex-direction: row;
+    row-gap: 19px;
+}
+
+ul>li{
+    list-style-type: none;
+}
+
+.in{
+    position: relative;
+    right: 0;
+    margin-left: 7rem;
+margin-right: 2rem;
+margin-top: 3rem;
+    /* background-color: rgba(0, 0, 0, 0.323); */
+}
+
+
+
+
+.name{
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    display: flex;
+}
+
+.name>input{
+    width: 19rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.num{
+    margin-top: 1rem;
+    display: grid;
+    gap: 20px;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+.num>input{
+    height: 3.5rem; 
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.com{
+    margin-top: 4rem;
+    text-align: center;
+    display: grid
+    
+}
+
+.com>input{
+    height: 3.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.titl,.titl1{
+    margin: 1rem 0px;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    display: flex;
+}
+
+.titl>input,.titl1>input{
+    width: 19rem;
+    height: 3.5rem;
+   
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+/* input::placeholder,input{
+    color: black;
+    font-weight: bold;
+   
+    font-size: 14px;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+} */
+input::placeholder{
+color: black;
+font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus{
+    outline:2px solid blueviolet;
+}
+
+input{
+    padding-left: 17px;
+}
+
+.com>button{
+margin-top: 2rem;
+height: 3.5rem;
+font-size: 1.2rem;
+font-weight: bold;
+background-color: blueviolet;
+border: none;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.com>button:hover{
+    opacity: 0.8;
+}
+
+.com>button:active{
+opacity: 1;
+}
+
+.p{
+    width: 39rem;
+    padding-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.p>p{
+    text-align: center;
+}
+   
+i{
+    /* text-justify: distribute-all-lines; */
+vertical-align: bottom;
+}
+
+
+
+
+
